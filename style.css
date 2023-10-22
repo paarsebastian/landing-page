@@ -7,82 +7,97 @@ body {
 .section1 {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: black;
     height: 100vh;
-    background-color: #c8d8e4;
+    background-color: white;
 }
 
     .header {
         display: flex;
         background-color: #fff;
+        position: fixed;
+        top: 0;
+        justify-content: space-between;
+        width: 95%;
         padding: 8px 32px;
     }
 
-    img.pic1 {
-        display: flex;
-        width: 100px;
-    }
+        img.pic1 {
+            display: flex;
+            width: 100px;
+        }
 
-    ul {
-        display: flex;
-        list-style-type: none;
-        padding: 0px;
-        margin: 0px;
-        margin-left: auto;
-        gap: 20px;
-        align-items: center;
-    }
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            margin-left: auto;
+            gap: 20px;
+            align-items: center;
+        }
 
-    li a {
-        color: black;
-        text-decoration: none;
-        font-size: 18px;
-    }
+        li a {
+            color: black;
+            text-decoration: none;
+            font-size: 24px;
+        }
+
+        a:hover {
+            font-size: 28px;
+            font-weight: 700;
+        }
 
     .section1body {
         display: flex;
         flex-direction: row-reverse;
-        justify-content: center;
-        gap: 130px;
-        padding: 32px;
-        font-size: 18px;
-    }
-
-    img.pic2 {
-        display: flex;
-        width: 500px;
-    }
-
-    .section1bodytext {
-        display: flex;
-        flex-direction: column;
-        width: 500px;
-        justify-content: center;
-        gap: 32px;
-    }
-
-    .section1bodytextheader {
-        display: flex;
-        font-size: 48px;
-        font-weight: bolder;
-    }
-
-    .button1 {
-        display: flex;
-        width: 150px;
+        justify-content: space-evenly;
         align-items: center;
-        justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 8px;
+        gap: 128px;
+        padding: 0px 256px;
         font-size: 18px;
-        font-weight: 550;
-        margin-top: 32px;
+        margin-top: 115.97px;
+        flex: 1;
     }
+
+        img.pic2 {
+            display: flex;
+            min-width: 500px;
+        }
+
+        .section1bodytext {
+            display: flex;
+            flex-direction: column;
+            min-width: 500px;
+            justify-content: center;
+            gap: 32px;
+            flex-wrap: wrap;
+        }
+
+            .section1bodytextheader {
+                display: flex;
+                font-size: 72px;
+                font-weight: bolder;
+                margin-bottom: 128px;
+            }
+
+            .button1 {
+                display: flex;
+                width: 150px;
+                align-items: center;
+                justify-content: center;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 8px;
+                font-size: 18px;
+                font-weight: 550;
+                margin-top: 32px;
+            }
 
 .section2 {
     display: flex;
     flex-direction: column;
+    background-color: #9bb1ffc9;
 }
 
     .section2header {

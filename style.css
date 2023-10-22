@@ -8,11 +8,14 @@ body {
     display: flex;
     flex-direction: column;
     color: white;
+    height: 100vh;
+    background-color: #c8d8e4;
 }
 
     .header {
         display: flex;
-        background-color: black;
+        background-color: #fff;
+        padding: 8px 32px;
     }
 
     img.pic1 {
@@ -31,8 +34,9 @@ body {
     }
 
     li a {
-        color: white;
+        color: black;
         text-decoration: none;
+        font-size: 18px;
     }
 
     .section1body {
@@ -40,8 +44,8 @@ body {
         flex-direction: row-reverse;
         justify-content: center;
         gap: 130px;
-        background-color: rgb(184, 181, 181);
         padding: 32px;
+        font-size: 18px;
     }
 
     img.pic2 {
@@ -59,11 +63,11 @@ body {
 
     .section1bodytextheader {
         display: flex;
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 48px;
+        font-weight: bolder;
     }
 
-    button {
+    .button1 {
         display: flex;
         width: 150px;
         align-items: center;
@@ -84,8 +88,8 @@ body {
     .section2header {
         display: flex;
         justify-content: center;
-        font-size: 40px;
-        font-weight: 700px;
+        font-size: 36px;
+        font-weight: bolder;
         padding: 16PX;
     }
 
@@ -143,25 +147,77 @@ body {
 .section3 {
     display: flex;
     background-color: #E5E7EB;
+    flex-direction: column;
+    padding: 128px;
+    flex-shrink: 0;
 }
+
+    .section3text1 {
+        font-size: 25px;
+        font-style: light italic;
+        margin-bottom: 16px;
+    }
+
+    .section3text2 {
+        font-size: 20px;
+        font-weight: 700;
+        display: flex;
+        justify-content: flex-end;
+    }
 
 .section4 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
-    .section4container {
+    .section4box {
         background-color: #3882f6;
         color: white;
+        padding: 56px 80px;
+        display: flex;
+        width: 750px;
+        flex: 1 1 auto;
+        gap: 32px;
+        align-items: center;
+        border-radius: 10px;
     }
 
+            .section4containerheader {
+                font-size: 25px;
+                font-weight: 700;
+            }
 
+            .section4containertext {
+                font-size: 20px;
+            }
 
-
+        .button2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: auto;
+            color: white;
+            background-color: #3882f6;
+            border: 1px solid white;
+            border-radius: 5px;
+            width: 200px;
+            height: 50px;
+            font-size: 18px;
+            font-weight: 700;
+        }
 
 .footer {
     display: flex;
     background-color: #1F2937;
     color: white;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 36px 72px;
 }
+
+    .footerinstagram {
+        text-decoration: none;
+        color: white;
+    }

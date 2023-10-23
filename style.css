@@ -19,12 +19,12 @@ body {
         top: 0;
         justify-content: space-between;
         width: 95%;
-        padding: 8px 32px;
+        padding: 0px 32px;
     }
 
         img.pic1 {
             display: flex;
-            width: 100px;
+            width: 80px;
         }
 
         ul {
@@ -40,7 +40,7 @@ body {
         li a {
             color: black;
             text-decoration: none;
-            font-size: 24px;
+            font-size: 20px;
         }
 
         a:hover {
@@ -92,21 +92,38 @@ body {
                 font-size: 18px;
                 font-weight: 550;
                 margin-top: 32px;
+                background-color: #0f172a;
+                color: white;
             }
+
+
+ .section2header {
+    display: flex;
+    justify-content: center;
+    background-color: #94a3b8;
+}
+
+.section2headertext {
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
 
 .section2 {
     display: flex;
     flex-direction: column;
-    background-color: #9bb1ffc9;
+    background-color: white;
+    padding: 128px 200px;
 }
-
-    .section2header {
-        display: flex;
-        justify-content: center;
-        font-size: 36px;
-        font-weight: bolder;
-        padding: 16PX;
-    }
 
     .section2body {
         display: flex;
@@ -161,10 +178,11 @@ body {
 
 .section3 {
     display: flex;
-    background-color: #E5E7EB;
     flex-direction: column;
     padding: 128px;
     flex-shrink: 0;
+    margin: 128px 0px;
+    background-color: #94a3b8;
 }
 
     .section3text1 {
@@ -188,7 +206,7 @@ body {
 }
 
     .section4box {
-        background-color: #3882f6;
+        background-color: #0f172a;
         color: white;
         padding: 56px 80px;
         display: flex;
@@ -213,8 +231,8 @@ body {
             justify-content: center;
             align-items: center;
             margin-left: auto;
-            color: white;
-            background-color: #3882f6;
+            color: #0f172a;
+            background-color: white;
             border: 1px solid white;
             border-radius: 5px;
             width: 200px;
@@ -225,14 +243,100 @@ body {
 
 .footer {
     display: flex;
-    background-color: #1F2937;
+    background-color: #0f172a;
     color: white;
     align-items: center;
     justify-content: space-between;
-    padding: 36px 72px;
+    padding: 0px 36px;
 }
 
-    .footerinstagram {
-        text-decoration: none;
-        color: white;
+    .footerimg {
+        display: flex;
+        width: 80px;
+        height: 80px;
     }
+
+    .footerinstagram {
+        width: 40px;
+        height: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+/* ÜBER MICH PAGE */
+.übermichbody {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.überbody {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.übertitel {
+    display: flex;
+    font-size: 48px;
+    padding: 10px 36px;
+    margin-top: 24px;
+}
+
+.überconbody {
+    display: flex;
+    padding: 64px 256px;
+    gap: 64px;
+}
+
+img.überconbodyimg {
+    display: flex;
+    width: 250px;
+}
+
+
+
+
+
+/* MEIN ZIEL PAGE */
+
+.meinzielbody {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.meinbody {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+
+
+
+/* KONTAKT PAGE */
+
+.kontaktbody {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.kontbody {
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    flex-grow: 1;
+}

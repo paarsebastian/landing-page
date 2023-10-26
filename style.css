@@ -174,21 +174,12 @@ button:hover {
         flex: 0 1 auto;
     }
 
-    .section2textright {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 32px;
-        min-width: 300px;
-        flex-direction: column;
-        gap: 32px;
-    }
-
+    .section2textright,
     .section2textleft {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 32px;
+        min-width: 300px;
         flex-direction: column;
         gap: 32px;
     }
@@ -209,6 +200,7 @@ button:hover {
         margin-right: auto;
         justify-content: center;
         align-items: center;
+        gap: 72px;
     }
 
     .erfahrung2,
@@ -218,6 +210,7 @@ button:hover {
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
+        gap: 72px;
     }
 
 
@@ -230,7 +223,7 @@ button:hover {
     color: white;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 32px;
 }
 
     .section3text1 {
@@ -242,7 +235,7 @@ button:hover {
         font-size: 20px;
         font-weight: 700;
         display: flex;
-        justify-content: flex-end;
+        margin-left: auto;
     }
 
     .section4 {
@@ -303,6 +296,10 @@ button:hover {
             height: 50px;
             font-size: 18px;
             font-weight: 700;
+        }
+
+        a {
+            text-decoration: none;
         }
 
 

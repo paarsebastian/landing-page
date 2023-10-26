@@ -105,6 +105,7 @@ button:hover {
             .sec1text2 {
                 font-size: 22px;
                 color: rgb(55, 55, 55);
+                text-align: justify;
             }
 
             .bold {
@@ -186,17 +187,18 @@ button:hover {
         flex: 1;
         flex-direction: column;
         gap: 32px;
-        text-align: justify;
     }
 
     .sec2texthed {
         font-size: 26px;
         font-weight: bold;
+        text-align: center;
     }
 
     .sec2text {
         font-size: 22px;
         color: rgb(55, 55, 55);
+        text-align: justify;
     }
 
     .erfahrung1,
@@ -361,24 +363,43 @@ button:hover {
     margin-top: 80px;
     flex-direction: column;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
 .übertitel {
     display: flex;
-    font-size: 48px;
-    padding: 10px 36px;
-    margin-top: 24px;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 0px 36px;
+    margin-top: 16px;
 }
 
 .überconbody {
     display: flex;
-    padding: 64px 256px;
+    padding: 20px 128px;
     gap: 64px;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.überconbodytext {
+    display: flex;
+    min-width: 330px;
+    max-width: 650px;
+    flex: 1;
+    text-align: justify;
+    flex-direction: column;
+    color: rgb(55, 55, 55);;
+    font-size: 18px;
 }
 
 img.überconbodyimg {
     display: flex;
-    width: 250px;
+    width: 330px;
+    height: auto;
 }
 
 
@@ -398,9 +419,36 @@ img.überconbodyimg {
     margin-top: 80px;
     flex-direction: column;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
 }
 
+.meinconbody {
+    display: flex;
+    padding: 20px 128px;
+    gap: 64px;
+    padding-top: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
 
+.meinconbodytext {
+    display: flex;
+    min-width: 330px;
+    max-width: 650px;
+    flex: 1;
+    text-align: justify;
+    flex-direction: column;
+    color: rgb(55, 55, 55);;
+    font-size: 18px;
+}
+
+.meinconbodyimg{
+    display: flex;
+    width: 330px;
+    height: auto;
+}
 
 
 

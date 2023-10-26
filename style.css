@@ -27,7 +27,6 @@ button:hover {
         left: 0;
         right: 0;
         height: 80px;
-        flex: 1;
         justify-content: space-between;
         padding: 0px 32px;
         box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -68,14 +67,14 @@ button:hover {
         gap: 100px;
         font-size: 18px;
         margin-top: 80px;
-        padding: 60px 128px;
+        padding: 80px 128px;
         padding-bottom: 216px;
         flex-direction: row-reverse;
     }
 
         img.pic2 {
             width: 500px;
-            max-width: 748px;
+            max-width: 680px;
             height: auto;
             flex: 1 1 auto;
         }
@@ -93,8 +92,23 @@ button:hover {
 
             .section1bodytextheader {
                 display: flex;
-                font-size: 72px;
+                font-size: 60px;
                 font-weight: bolder;
+            }
+
+            .sec1text1 {
+                font-size: 26px;
+                font-weight: bold;
+            }
+
+            .sec1text2 {
+                font-size: 22px;
+                color: rgb(55, 55, 55);
+            }
+
+            .bold {
+                color: black;
+                font-weight: 600;
             }
 
             .button1 {
@@ -126,6 +140,7 @@ button:hover {
     font-size: 36px;
     font-weight: bolder;
     background-color: white;
+    border: 1px solid white;
     color: black;
     margin-left: auto;
     margin-right: auto;
@@ -139,23 +154,24 @@ button:hover {
     flex-direction: column;
     background-color: white;
     padding: 128px 128px;
+    justify-content: center;
+    align-items: center;
 }
 
     .section2body {
         display: flex;
-        padding: 32px;
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        gap: 64px;
+        gap: 128px;
     }
 
     img.picerfahrung {
         display: flex;
-        width: 500px;
+        max-width: 500px;
         height: auto;
-        flex: 1;
         border-radius: 8px;
+        flex: 0 1 auto;
     }
 
     .section2textright {
@@ -163,6 +179,9 @@ button:hover {
         justify-content: center;
         align-items: center;
         padding-left: 32px;
+        min-width: 300px;
+        flex-direction: column;
+        gap: 32px;
     }
 
     .section2textleft {
@@ -170,29 +189,37 @@ button:hover {
         justify-content: center;
         align-items: center;
         padding-right: 32px;
+        flex-direction: column;
+        gap: 32px;
     }
 
-    .erfahrung1 {
-        display: flex;
-        margin-right: auto;
+    .sec2texthed {
+        font-size: 26px;
+        font-weight: bold;
     }
 
-    .erfahrung2 {
-        display: flex;
-        margin-left: auto;
-        flex-direction: row-reverse;
+    .sec2text {
+        font-size: 22px;
+        color: rgb(55, 55, 55);
     }
 
+    .erfahrung1,
     .erfahrung3 {
         display: flex;
         margin-right: auto;
+        justify-content: center;
+        align-items: center;
     }
 
+    .erfahrung2,
     .erfahrung4 {
         display: flex;
         margin-left: auto;
         flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
     }
+
 
 .section3 {
     display: flex;
@@ -317,6 +344,7 @@ button:hover {
 
 
 /* ÜBER MICH PAGE */
+
 .übermichbody {
     display: flex;
     flex-direction: column;

@@ -4,22 +4,32 @@ body {
     flex-direction: column;
 }
 
+button:hover {
+    cursor: pointer;
+
+    transform: scale(1.05);
+}
+
 .section1 {
     display: flex;
     flex-direction: column;
     color: black;
-    height: 100vh;
+    min-height: 100vh;
+    flex: 1;
     background-color: white;
 }
 
     .header {
         display: flex;
-        background-color: #fff;
+        background-color: white;
         position: fixed;
         top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
         justify-content: space-between;
-        width: 95%;
         padding: 0px 32px;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     }
 
         img.pic1 {
@@ -41,48 +51,43 @@ body {
             color: black;
             text-decoration: none;
             font-size: 20px;
+            color: #333;
         }
 
         a:hover {
-            font-size: 28px;
-            font-weight: 700;
+            color: black;
         }
 
     .section1body {
         flex: 1;
-
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 120px;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
         font-size: 18px;
-        margin-top: 115.97px;
-        padding: 120px;
+        margin-top: 80px;
+        padding: 60px 116px;
         flex-direction: row-reverse;
     }
 
-    .img-wrapper {
-        flex: 1;
-        width: 100%;
-        min-width: 500px;
-
-        max-height: 500px;
-    }
 
         img.pic2 {
-            display: flex;
-            width: 100%;
+            width: 500px;
+            max-width: 748px;
             height: auto;
+            flex: 1 1 auto;
         }
 
         .section1bodytext {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            gap: 32px;
-            flex-wrap: wrap;
-            width: 500px;
-            flex: 2;
+            gap: 25px;
+            width: 450px;
+            max-width: 748px;
+            height: auto;
+            flex: 1;
         }
 
             .section1bodytextheader {
@@ -93,17 +98,18 @@ body {
 
             .button1 {
                 display: flex;
-                width: 150px;
+                width: 180px;
                 align-items: center;
                 justify-content: center;
+                margin-top: 25px;
                 margin-left: auto;
                 margin-right: auto;
-                padding: 8px;
+                padding: 16px;
                 font-size: 18px;
                 font-weight: 550;
-                margin-top: 32px;
                 background-color: #0f172a;
                 color: white;
+                border-radius: 10px;
             }
 
 
@@ -147,6 +153,7 @@ body {
         display: flex;
         width: 500px;
         height: auto;
+        border-radius: 8px;
     }
 
     .section2textright {
@@ -188,17 +195,18 @@ body {
 .section3 {
     display: flex;
     flex-direction: column;
-    padding: 128px;
+    padding: 100px 128px;
     flex-shrink: 0;
-    margin: 128px 0px;
     background-color: #0f172a;
     color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 
     .section3text1 {
         font-size: 25px;
         font-style: light italic;
-        margin-bottom: 16px;
     }
 
     .section3text2 {
@@ -208,33 +216,50 @@ body {
         justify-content: flex-end;
     }
 
-.section4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-}
-
-    .section4box {
-        background-color: #0f172a;
-        color: white;
-        padding: 56px 80px;
+    .section4 {
         display: flex;
-        width: 750px;
-        flex: 1 1 auto;
-        gap: 32px;
+        background-color: white;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        border-radius: 10px;
+        padding: 128px;
+        gap: 80px;
+        padding-bottom: 80px;
     }
 
-            .section4containerheader {
-                font-size: 25px;
-                font-weight: 700;
+        .sec4pic {
+            display: flex;
+            width: 900px;
+        }
+
+        .section4box {
+            background-color: #0f172a;
+            color: white;
+            padding: 40px 80px;
+            display: flex;
+            flex: 1 1 auto;
+            max-width: auto;
+            gap: 64px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px; 
+            border: 2px solid #0f172a;
+        } 
+
+            .section4container {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
             }
 
-            .section4containertext {
-                font-size: 20px;
-            }
+                .section4containerheader {
+                    font-size: 25px;
+                    font-weight: 700;
+                }
+
+                .section4containertext {
+                    font-size: 20px;
+                }
 
         .button2 {
             display: flex;
@@ -243,13 +268,22 @@ body {
             margin-left: auto;
             color: #0f172a;
             background-color: white;
-            border: 1px solid white;
-            border-radius: 5px;
+            border: 2px solid #0f172a;
+            border-radius: 10px;
             width: 200px;
             height: 50px;
             font-size: 18px;
             font-weight: 700;
         }
+
+
+
+
+
+
+
+
+
 
 .footer {
     display: flex;
@@ -258,7 +292,14 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0px 36px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-color: white;
 }
+
+    .footertext1 {
+        display: flex;
+    }
 
     .footerimg {
         display: flex;

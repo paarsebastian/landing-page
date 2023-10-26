@@ -14,7 +14,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     color: black;
-    min-height: 100vh;
+    height: 100vh;
     flex: 1;
     background-color: white;
 }
@@ -27,6 +27,7 @@ button:hover {
         left: 0;
         right: 0;
         height: 80px;
+        flex: 1;
         justify-content: space-between;
         padding: 0px 32px;
         box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
@@ -67,10 +68,10 @@ button:hover {
         gap: 100px;
         font-size: 18px;
         margin-top: 80px;
-        padding: 60px 116px;
+        padding: 60px 128px;
+        padding-bottom: 216px;
         flex-direction: row-reverse;
     }
-
 
         img.pic2 {
             width: 500px;
@@ -153,6 +154,7 @@ button:hover {
         display: flex;
         width: 500px;
         height: auto;
+        flex: 1;
         border-radius: 8px;
     }
 

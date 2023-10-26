@@ -170,6 +170,7 @@ button:hover {
     img.picerfahrung {
         display: flex;
         max-width: 500px;
+        flex: 1;
         height: auto;
         border-radius: 8px;
         flex: 0 1 auto;
@@ -180,9 +181,12 @@ button:hover {
         display: flex;
         justify-content: center;
         align-items: center;
-        min-width: 300px;
+        min-width: 250px;
+        max-width: 500px;
+        flex: 1;
         flex-direction: column;
         gap: 32px;
+        text-align: justify;
     }
 
     .sec2texthed {
@@ -202,6 +206,7 @@ button:hover {
         justify-content: center;
         align-items: center;
         gap: 72px;
+        flex-wrap: wrap;
     }
 
     .erfahrung2,
@@ -212,6 +217,7 @@ button:hover {
         justify-content: center;
         align-items: center;
         gap: 72px;
+        flex-wrap: wrap;
     }
 
 
@@ -251,7 +257,8 @@ button:hover {
 
         .sec4pic {
             display: flex;
-            width: 900px;
+            width: 500px;
+            height: auto;
             border-radius: 10px;
         }
 

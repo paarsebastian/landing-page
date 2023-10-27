@@ -568,6 +568,9 @@ img.überconbodyimg {
         height: 50px;
     }
 
+    .überbody {
+        margin-top: 120px;
+    }
 
     .überconbody {
         padding: 20px 64px;
@@ -577,16 +580,24 @@ img.überconbodyimg {
         font-size: 22px;
     }
 
+    .meinbody {
+        margin-top: 120px;
+    }
+
     .meinconbody {
-        padding: 40px 64px;
+        padding: 20px 64px;
     }
 
     .meinconbodytext {
         font-size: 22px;
     }
 
+    .kontbody {
+        margin-top: 120px;
+    }
+
     .kontconbody {
-        padding: 40px 64px;
+        padding: 20px 64px;
     }
 
     .kontconbodytext {

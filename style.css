@@ -236,12 +236,12 @@ button:hover {
 }
 
     .section3text1 {
-        font-size: 25px;
+        font-size: 26px;
         font-style: light italic;
     }
 
     .section3text2 {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: 700;
         display: flex;
         margin-left: auto;
@@ -285,12 +285,12 @@ button:hover {
             }
 
                 .section4containerheader {
-                    font-size: 25px;
+                    font-size: 26px;
                     font-weight: 700;
                 }
 
                 .section4containertext {
-                    font-size: 20px;
+                    font-size: 22px;
                 }
 
         .button2 {
@@ -304,7 +304,7 @@ button:hover {
             border-radius: 10px;
             width: 200px;
             height: 50px;
-            font-size: 18px;
+            font-size: 22px;
             font-weight: 700;
         }
 
@@ -425,9 +425,8 @@ img.überconbodyimg {
 
 .meinconbody {
     display: flex;
-    padding: 20px 128px;
+    padding: 40px 128px;
     gap: 64px;
-    padding-top: 0px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -465,4 +464,45 @@ img.überconbodyimg {
     margin-top: 80px;
     flex-direction: column;
     flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontconbody {
+    display: flex;
+    padding: 40px 128px;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.kontconbodytext {
+    display: flex;
+    min-width: 330px;
+    max-width: 650px;
+    flex: 1;
+    text-align: justify;
+    flex-direction: column;
+    color: rgb(55, 55, 55);;
+    font-size: 18px;
+}
+
+.kontbodytext2 {
+    padding-top: 16px;
+}
+
+.kontconbodyimg {
+    display: flex;
+    width: 330px;
+    height: auto;
+}
+
+.maillink {
+    color: black;
+    text-decoration: underline;
+}
+
+.maillink:hover {
+    color: blue;
 }

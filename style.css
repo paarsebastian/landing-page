@@ -336,6 +336,7 @@ button:hover {
 
     .footertext1 {
         display: flex;
+        font-size: 20px;
     }
 
     .footerimg {
@@ -512,6 +513,17 @@ img.überconbodyimg {
 
 @media screen and (max-width: 500px), screen and (orientation: portrait)  {
 
+    .header {
+        height: 110px;
+    }
+
+    img.pic1 {
+        width: 110px;
+    }
+
+    li a {
+        font-size: 23px;
+    }
 
     .section1body {
         padding: 80px 64px;
@@ -541,6 +553,21 @@ img.überconbodyimg {
     .section4container {
         width: 200px;
     }
+
+    .footerimg {
+        width: 110px;
+        height: 110px;
+    }
+
+    .footertext1 {
+        font-size: 23px;
+    }
+
+    .footerinstagram {
+        width: 50px;
+        height: 50px;
+    }
+
 
     .überconbody {
         padding: 20px 64px;

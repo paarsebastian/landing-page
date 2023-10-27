@@ -238,6 +238,7 @@ button:hover {
     .section3text1 {
         font-size: 26px;
         font-style: light italic;
+        text-align: justify;
     }
 
     .section3text2 {
@@ -506,3 +507,63 @@ img.überconbodyimg {
 .maillink:hover {
     color: blue;
 }
+
+/* Handy Ansicht*/
+
+@media screen and (max-width: 500px), screen and (orientation: portrait)  {
+
+
+    .section1body {
+        padding: 80px 64px;
+        padding-bottom: 216px;
+    }
+
+    .sec1text1 {
+        font-size: 30px;
+    }
+
+    .sec1text2 {
+        font-size: 26px;
+    }
+
+    .section3 {
+        padding: 100px 64px;
+    }
+
+    .section3text1 {
+        font-size: 15px;
+    }
+
+    .section4box {
+        padding: 40px;
+    }
+
+    .section4container {
+        width: 200px;
+    }
+
+    .überconbody {
+        padding: 20px 64px;
+    }
+    
+    .überconbodytext {
+        font-size: 22px;
+    }
+
+    .meinconbody {
+        padding: 40px 64px;
+    }
+
+    .meinconbodytext {
+        font-size: 22px;
+    }
+
+    .kontconbody {
+        padding: 40px 64px;
+    }
+
+    .kontconbodytext {
+        font-size: 22px;
+    }
+}
+

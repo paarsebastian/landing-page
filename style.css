@@ -538,12 +538,17 @@ img.überconbodyimg {
         font-size: 26px;
     }
 
+    .button1 {
+        font-size: 26px;
+        width: 200px;
+    }
+
     .section3 {
         padding: 100px 64px;
     }
 
     .section3text1 {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .section4box {
@@ -577,7 +582,7 @@ img.überconbodyimg {
     }
     
     .überconbodytext {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .meinbody {
@@ -589,7 +594,7 @@ img.überconbodyimg {
     }
 
     .meinconbodytext {
-        font-size: 22px;
+        font-size: 25px;
     }
 
     .kontbody {
@@ -601,7 +606,7 @@ img.überconbodyimg {
     }
 
     .kontconbodytext {
-        font-size: 22px;
+        font-size: 25px;
     }
 }
 
